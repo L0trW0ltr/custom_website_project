@@ -15,7 +15,9 @@ Dále bylo AI plně použito na vytvoření "Scroll To Top" tlačítka v podobě
 </div>
 
 i tento JS:
-// logika pro healthbar
+```
+...
+		// logika pro healthbar
         const winHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
         const scrolled = (scrollPos / winHeight) * 100;
         
@@ -28,3 +30,4 @@ i tento JS:
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+```
