@@ -29,6 +29,7 @@
 html {
 	scroll-behavior: smooth;
 	transition: all 0.4s ease;
+    scroll-padding-top: 56px;
 }
 
 body {
@@ -813,7 +814,7 @@ footer .trippy {
     }
 
     section.intro{
-        min-height: 500px;
+        min-height: 400px;
     }
 
     #about div p{
@@ -923,7 +924,7 @@ footer .trippy {
     }
 
     section.intro{
-        min-height: 650px;
+        min-height: 550px;
     }
 
     #about div p{
