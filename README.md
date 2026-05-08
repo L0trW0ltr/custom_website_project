@@ -1,5 +1,7 @@
 "It ain't much, but it's honest work."
 
+Finální stránka: https://l0trw0ltr.github.io/custom_website_project/
+
 Řešení je silně zaměřeno spíše na vizuální pojetí, než-li na to obsahové.
 Jinak všechna upravená .jpg a .png jsou editovaná mnou (Photopea).
 
