@@ -1,5 +1,4 @@
 window.addEventListener('load', function() { // celý kód se spustí až po načtení stránky
-    console.log("Max Payne skript aktivován...");
 
     const nav = document.querySelector('nav');
     const body = document.querySelector('body');
@@ -14,20 +13,20 @@ window.addEventListener('load', function() { // celý kód se spustí až po na�
 
         // logika pro navigaci
         if (scrollPos >= navTop && navTop > 0) {
-            if (!nav.classList.contains('is-sticky')) {
+            if (!nav.classList.contains('is-sticky')) { // dělá "sticky" navigaci
                 nav.classList.add('is-sticky');
                 body.style.maxWidth = "100%";
             }
 
-            if (!gun.classList.contains('gun-sticky')) {
+            if (!gun.classList.contains('gun-sticky')) { // mění velikosti zbraně v navigaci
                 gun.classList.add('gun-sticky');
             }
 
-            if (!siluete[1].classList.contains('shadow')) {
+            if (!siluete[1].classList.contains('shadow')) { // přidává stín postavě v ABOUT ME
                 siluete[1].classList.add('shadow');
             }
             
-            if(!aboutSlide[0].classList.contains('about-slide')) {
+            if(!aboutSlide[0].classList.contains('about-slide')) { // přidává animaci pro text v ABOUT ME
                 aboutSlide[0].classList.add('about-slide');
 
                 const lol = aboutSlide[0].getElementsByTagName('p');

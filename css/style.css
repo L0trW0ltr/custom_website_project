@@ -9,7 +9,7 @@
 
 @font-face {
 	font-family: 'SlateBold';
-	font-style: bold;
+	font-style: normal;
 	font-display: swap;
 	font-stretch: normal;
     font-weight: normal;
@@ -549,8 +549,16 @@ footer .trippy {
     height: 100%;
     cursor: pointer;
     background-color: #333;
-    -webkit-mask: url('../img/hp.png') no-repeat center / contain;
-    mask: url('../img/hp.png') no-repeat center / contain;
+
+    -webkit-mask-image: url('../img/hp.png');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+
+    mask-image: url('../img/hp.png');
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
 }
 
 #health-bar {
